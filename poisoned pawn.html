@@ -1,14 +1,152 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Poisoned Pawn</title>
+
+    <style>
+        body {
+            background-color: #f4eee2;
+            color: #30251f;
+            font-family: Georgia, serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: #54252b;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #30251f;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .button {
+            background-color: #54252b;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .suspects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #c8b9a5;
+            padding: 20px;
+            width: 200px;
+        }
+
+        footer {
+            background-color: #30251f;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
 </head>
+
 <body>
-    
 
+    <header>
+        <h1>THE POISONED PAWN</h1>
+        <p>A Murder Mystery — Winter, 1965</p>
+    </header>
 
-    
+    <nav>
+        <a href="#story">The Mystery</a>
+        <a href="#suspects">Suspects</a>
+        <a href="#clues">Evidence</a>
+    </nav>
+
+    <section id="story">
+        <h2>A Game of Life and Death</h2>
+
+        <p>
+            Winter has trapped everyone inside Blackpine Lodge.
+            During a chess match, Grandmaster Anton Kessler suddenly
+            dies. Was it natural causes, or was he murdered?
+        </p>
+
+        <p>
+            Investigate the lodge, question the suspects, and uncover
+            the truth before the killer escapes.
+        </p>
+
+        <a href="#suspects" class="button">Begin Investigation</a>
+    </section>
+
+    <section id="suspects">
+        <h2>The Suspects</h2>
+
+        <div class="suspects">
+
+            <div class="card">
+                <h3>Lena Okafor</h3>
+                <p>A rival grandmaster with something to prove.</p>
+            </div>
+
+            <div class="card">
+                <h3>Marguerite Voss</h3>
+                <p>A chess coach who knew the victim well.</p>
+            </div>
+
+            <div class="card">
+                <h3>Mr. Brandt</h3>
+                <p>The owner of the isolated Blackpine Lodge.</p>
+            </div>
+
+            <div class="card">
+                <h3>Cass Delaney</h3>
+                <p>A journalist searching for the perfect story.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="clues">
+        <h2>Evidence Notebook</h2>
+
+        <p>Examine the clues carefully:</p>
+
+        <ul style="display: inline-block; text-align: left;">
+            <li>A suspicious teacup</li>
+            <li>Hidden sedatives in the conservatory</li>
+            <li>A cut telephone line</li>
+            <li>Heart medication in Kessler's room</li>
+            <li>A chess scoresheet with an unusual pause</li>
+        </ul>
+
+        <p>Every clue brings you closer to the truth.</p>
+    </section>
+
+    <footer>
+        <p>THE POISONED PAWN | Every move leaves a trace.</p>
+    </footer>
+
 </body>
 </html>
